@@ -1,0 +1,8 @@
+p {
+  color: white;
+}
+
+button:active {
+  background-color: black;
+  color: white;
+}

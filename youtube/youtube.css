@@ -1,0 +1,5 @@
+.thumbnail1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /*property được dùng dể thay đổi kích thước của img or video để phù hợp với vùng chứa nó */
+}
