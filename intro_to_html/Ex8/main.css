@@ -1,0 +1,74 @@
+body {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+}
+
+div {
+  margin-bottom: 30px;
+}
+/* ex1 */
+.Enter-name,
+.Enter-email {
+  display: block;
+  margin: 10px;
+}
+
+/* Ex2 */
+
+.tks {
+  width: 300px;
+}
+
+.tks,
+.C-but {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Ex3 */
+
+.gg-img,
+.search {
+  display: block;
+}
+
+.gg-img {
+  margin-left: 146px;
+  margin-bottom: 23px;
+}
+
+.search {
+  width: 580px;
+  height: 40px;
+  border-radius: 25px;
+  border-style: solid;
+  font-size: 20px;
+}
+
+/* ex4 */
+.enter-info {
+  height: 40px;
+  width: 132px;
+
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(206, 201, 201);
+}
+
+.enter-email {
+  display: block;
+  margin-top: 0;
+  width: 276px;
+}
+
+.sign-up {
+  width: 282px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(41, 125, 229);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
