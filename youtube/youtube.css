@@ -1,17 +1,49 @@
-body {
-  margin: 0;
-}
-
-.thumbnail1 {
-  width: 300px;
-  display: block;
-}
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Dancing+Script&family=Montserrat&family=Playfair+Display:ital@1&family=Roboto:wght@100&family=Rubik+Iso&display=swap");
 
 .search-bar {
   top: 0;
   font-size: 20px;
 }
 
+.thumbnail1 {
+  width: 322px;
+  display: block;
+}
+
+.img-author-container,
+.detail-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.img-author {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.detail-container {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
 .video-title {
-  width: 300px;
+  font-family: "Roboto", sans-serif;
+  width: 280px;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+
+.video-author {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.video-stats {
+  margin-top: 0px;
+  font-size: 14px;
 }

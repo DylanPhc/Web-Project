@@ -5,6 +5,7 @@ body {
 
 div {
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 /* ex1 */
 .Enter-name,
@@ -71,4 +72,42 @@ div {
   color: white;
   font-weight: bold;
   font-size: 15px;
+}
+
+/* Ex5 */
+
+.enter-f,
+.button-f {
+  display: block;
+}
+
+h1 {
+  font-family: Arial;
+}
+.enter-f {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  width: 330px;
+  height: 35px;
+  border: none;
+  background-color: #80808024;
+}
+
+.button-f {
+  display: inline;
+}
+
+.request {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+.later {
+  height: 40px;
+  border: none;
+  margin-left: 15px;
+  width: 153px;
 }
