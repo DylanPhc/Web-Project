@@ -1,0 +1,50 @@
+.ex-9d {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ex-9g-a,
+.ex-9g-b,
+.ex-9g-c {
+  box-shadow: 0px 0px 6px #000000a3;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.ex-9e-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.img-minual-friend {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-left: 4px;
+}
+.user-name {
+  margin-top: 6px;
+  margin-left: 7px;
+  margin-bottom: 1px;
+}
+
+.friend {
+  font-size: 13px;
+  color: gray;
+  margin-left: 3px;
+}
+
+.img-friend-grid {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+}
+
+button {
+  padding: 6px 13px;
+  border: none;
+  background-color: #1d7affcc;
+  color: white;
+  font-weight: bold;
+}
