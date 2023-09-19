@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+}
+
+.left-head {
+  background-color: lightseagreen;
+  width: 150px;
+}
+.search {
+  background-color: lightcoral;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+}
+
+.right-head {
+  background-color: lightgreen;
+  flex: 1;
+}
