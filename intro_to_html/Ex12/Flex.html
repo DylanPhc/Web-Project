@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex12</title>
+    <link rel="stylesheet" href="flex.css" />
+    <style>
+      .container {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container ex12-a" style="display: flex; flex-direction: row">
+      <div class="div1" style="width: 200px; background-color: lightblue">
+        200px
+      </div>
+      <div class="div2" style="width: 75px; background-color: lightpink">
+        75px
+      </div>
+    </div>
+
+    <div class="container ex12-b" style="display: flex; flex-direction: row">
+      <div class="div1" style="background-color: lightblue; width: 50px">
+        item1
+      </div>
+      <div class="div2" style="flex: 1; background-color: lightpink">item2</div>
+      <div class="div3" style="width: 75px; background-color: lightblue">
+        item3
+      </div>
+    </div>
+
+    <div
+      class="container ex12-c"
+      style="display: flex; flex-direction: row; justify-content: space-between"
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+      <div style="background-color: lightpink">item3</div>
+      <div style="background-color: lightpink">item4</div>
+    </div>
+
+    <div
+      class="container ex12-d"
+      style="
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border: 2px solid black;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+    </div>
+
+    <div class="container ex12-e">
+      <div class="home">
+        <p>Home</p>
+        <p class="count">14</p>
+      </div>
+      <div class="notice">
+        <p>Notifications</p>
+        <p class="count">3</p>
+      </div>
+      <div class="mess">
+        <p>Messages</p>
+        <p class="count">5</p>
+      </div>
+    </div>
+
+    <div class="container ex12-g">
+      <div class="user-container">
+        <div class="img-user">
+          <img src="/Web-Project/youtube/image/user-1.jpg" alt="" />
+        </div>
+        <div class="info-user">
+          <div>
+            <p>Oliver</p>
+            <p>The Cat</p>
+            <p>Popular</p>
+          </div>
+
+          <button class="fl-button">Follow</button>
+        </div>
+      </div>
+      <div class="user-container">
+        <div class="img-user">
+          <img src="/Web-Project/youtube/image/user-2.jpg" alt="" />
+        </div>
+        <div class="info-user">
+          <div>
+            <p>Mimi</p>
+            <p>Sleepy Cat</p>
+            <p>Popular</p>
+          </div>
+
+          <button class="fl-button">Follow</button>
+        </div>
+      </div>
+      <div class="user-container">
+        <div class="img-user">
+          <img src="/Web-Project/youtube/image/user-3.jpg" alt="" />
+        </div>
+        <div class="info-user">
+          <div>
+            <p>Rex</p>
+            <p>Happy Buildog</p>
+            <p>Popular</p>
+          </div>
+
+          <button class="fl-button">Follow</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ex12-f">
+      <p>Home</p>
+      <input type="text" />
+      <button>Download</button>
+    </div>
+  </body>
+</html>
